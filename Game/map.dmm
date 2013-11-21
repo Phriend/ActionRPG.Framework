@@ -1,0 +1,67 @@
+"a" = (/turf,/area)
+"b" = (/obj/environment/Dirt_01,/turf,/area)
+"c" = (/turf/wall_01,/area)
+"d" = (/turf/wood_01,/area)
+"e" = (/obj/anvil,/turf,/area)
+"f" = (/mob/npc/npc1,/turf,/area)
+"g" = (/mob/npc/npc3,/turf,/area)
+"h" = (/turf/floor_01,/area/help/banker)
+"i" = (/mob/npc/banker,/turf/floor_01,/area/help/banker)
+"j" = (/turf/floor_01,/area)
+"k" = (/mob/npc/npc2,/turf/floor_01,/area)
+"l" = (/turf/floor_01,/area/help/shopkeeper)
+"m" = (/mob/npc/shopkeeper,/turf/floor_01,/area/help/shopkeeper)
+"n" = (/mob/npc/guard,/turf,/area)
+"o" = (/turf,/area/help/enemies)
+"p" = (/turf/wall_01,/area/help/enemies)
+"q" = (/turf/stone_01,/area)
+"r" = (/turf/stone_01,/area/help/enemies)
+"s" = (/turf/wall_02,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaabbbbaccccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaabbbbaccccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaabbbbaccccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaadddddddddddddccccccccccccccccccccc
+aaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaac
+aaaaaaaaaaaaaaeaaaaaaaadaaaaaaaaaaaaaaaaaaaac
+aaaaaaaadddddaaafaaaaaadaaaaaaaaaaaaaaaaagaac
+aaaaaaaadhihdaaaaaaddddddddaaacaaaaaaaaaaaaac
+aaaaaaaadhhhhaaaaaadjjjjjjdacacaccaaaaaaaaaac
+aaaaaaaadhhhhaaaaaadjjkjjjdacccccaaaaaaaaaaac
+aaaaaaaadhhhdaaaaaadjjjjjjdacccccccaaaaaaaaac
+aaaaaaaadddddddaaaadjjjjjjdccccaaaaaaaaaaaaac
+aaaaaaaadllllldaaaadddjddddacccacaaaaaaaacccc
+aaaaaaaadlmllldaaaaaaaaaaaaacacccaaaaaacccccc
+aaaaaaaadllllllaaaanaaaaaaaccaaaaaaaaaacacccc
+aaaaaaaadllllllaaaaaaaaaaaaaaaaaaaaaaaaaaaccc
+aaaaacccdllllldaaaaaaaaaaaaaaaaaaaaaaaaacccac
+aaaaacoodddddddaaaaaaaaaaaaaaaaaaaaaaaaaacaac
+aaaaapoooopcccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaac
+aaaaapoopppcccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaac
+aaaaapoopopppccccaaaaaaaaaaaaaaaaaaaaaaaaaaac
+aaaaapoooooppcacaaaaaaaaaaaaaaaaaaaaaaaaaaaac
+aaaaapooopppocaaaaaaaaaaaaaaaaaaaaaaaaaaqqqqq
+aaaaapoooopooppooooooooooooooooooaaaaaaaqqqqq
+aaaaapooooooopooooooooooooorrroooqqqqaaaqqqqq
+aaaaapoooooooooooooooooooorrrrooorrrrrrrrrrrr
+aaaaapoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaapoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaapoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaapoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaarraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaarraaacccccccccccccccccccccccccccccccccaa
+aaaaarraaacccccccccccccccccccccccccccccccccaa
+aaaaarraaacccccccccccccccccccccccccccccccccaa
+aaaaarraaacccccccccccccccccccccccccccccccccaa
+aaaaarraaaccccccccccccccccccccccccsssssscccaa
+aaaaarraaaccccccccccccccccccccccccsssssscccaa
+aaaaarraaaccccccccccccccccccccccccsssssscccaa
+aaaaarraaaccccccccccccccccccccccccsssssscccaa
+aaaaarraaaccccccccccccccccccccccccsssssscccaa
+aaaaarraaacccccccccccccccccccccccccccccccccaa
+aaaaarraaacccccccccccccccccccccccccccccccscaa
+aaaaarraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

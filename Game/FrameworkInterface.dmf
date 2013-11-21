@@ -1,0 +1,243 @@
+macro "macro"
+	elem 
+		name = "North+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "South+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "East+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "West+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+		is-disabled = false
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "Center+REP"
+		command = ".center"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 281,0
+		size = 1280x800
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Sandbox"
+		titlebar = true
+		statusbar = true
+		can-close = true
+		can-minimize = true
+		can-resize = false
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = "menu"
+		on-close = ""
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 1280x800
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = none
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		on-size = ""
+		icon-size = 0
+		text-mode = false
+		letterbox = false
+		zoom = 0
+		on-show = ""
+		on-hide = ""
+		style = ""
+
+window "terminal"
+	elem "terminal"
+		type = MAIN
+		pos = 348,90
+		size = 390x255
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Terminal"
+		titlebar = true
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 220
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "info1"
+		type = INFO
+		pos = 0,113
+		size = 389x119
+		anchor1 = 0,44
+		anchor2 = 100,88
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #e0e0e0
+		background-color = #8f8756
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		highlight-color = #00ff00
+		tab-text-color = #e0e0e0
+		tab-background-color = #81794e
+		tab-font-family = ""
+		tab-font-size = 0
+		tab-font-style = ""
+		allow-html = true
+		multi-line = true
+		on-show = ""
+		on-hide = ""
+		on-tab = ""
+		prefix-color = none
+		suffix-color = none
+	elem "output"
+		type = OUTPUT
+		pos = 0,0
+		size = 390x112
+		anchor1 = 0,0
+		anchor2 = 100,88
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #e0e0e0
+		background-color = #8f8756
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+	elem "input"
+		type = INPUT
+		pos = 0,233
+		size = 390x19
+		anchor1 = 0,88
+		anchor2 = 100,99
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #e0e0e0
+		background-color = #81794e
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		command = ""
+		multi-line = false
+		is-password = false
+		no-command = false
+
